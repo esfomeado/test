@@ -2,7 +2,7 @@ name: Dependencies Graph
 on:
   push:
     branches:
-      - master # run the action on your projects default branch
+      - main # run the action on your projects default branch
 
 jobs:
   build:
