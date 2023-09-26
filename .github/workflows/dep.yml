@@ -18,3 +18,5 @@ jobs:
         uses: mikepenz/gradle-dependency-submission@v0.9.0
         with:
           use-gradlew: false
+          gradle-build-module: |-
+            :app
